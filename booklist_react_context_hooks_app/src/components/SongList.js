@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import uuid from "uuid/vi";
+import uuid from "uuid/v1";
 
 const SongList = () => {
   const [songs, setSongs] = useState([
